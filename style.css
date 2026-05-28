@@ -1,0 +1,104 @@
+body {
+    font-family: 'Times New roman', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    background-color: rgb(239, 243, 215);
+
+    }
+.heading {
+    background-color: rgb(255, 111, 0);
+    color: white;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    gap: 20px;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+}
+h2 {
+    text-align: center;
+    color: red
+}
+main {
+    padding: 20px;
+}
+.one {
+    width: 500px;
+    display: block;
+    margin: 0 auto
+}
+.vidaud {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.p1 {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+
+    max-width: 1200px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.card {
+    background-color: #fff9aa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.wahana-besar {
+    background: skyblue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.wahana-kecil {
+    background: orange;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.grid-img {
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
